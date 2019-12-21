@@ -26,7 +26,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -54,14 +54,18 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
+    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1576917172621">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1576917172621" />
     <state x="695" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1576394297750">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="695" y="322" key="#com.intellij.fileTypes.FileTypeChooser/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1576394297750" />
-    <state x="461" y="162" key="SettingsEditor" timestamp="1576394569102">
+    <state x="461" y="162" key="SettingsEditor" timestamp="1576917273149">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="461" y="162" key="SettingsEditor/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1576394569102" />
+    <state x="461" y="162" key="SettingsEditor/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1576917273149" />
     <state x="640" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1576394275171">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
