@@ -24,4 +24,5 @@ urlpatterns = [
     path('about/', views.about, name='about'),
     path('game_01/', views.game_01, name='sign_up_game_01'),
     path('game_02/', views.game_02, name='sign_up_game_02'),
+    path('sign_up/', views.sign_up, name='sign_up'),
 ]

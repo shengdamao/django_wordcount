@@ -10,22 +10,19 @@
     <input type="submit" value="Count!"   />
 </form>
 
-<form action="{% url 'sign_up_game_01' %}">
-    <textarea>
+<form action="{% url 'sign_up' %}">
 
+比赛报名入口
 
-    </textarea>
-
-
-    <input type="submit" value="Sign Up Now." />
+    <input type="submit" value="前往" />
 </form>
 
 <form action="{% url 'sign_up_game_02' %}">
-  First name:<br>
-  <input type="text" name="firstname" value="Mickey">
+  姓名:  <br>
+  <input type="text" name="name" >
   <br>
   Last name:<br>
-  <input type="text" name="lastname" value="Mouse">
+  <input type="text" name="age" >
   <br><br>
   <input type="submit" value="Submit">
 </form>

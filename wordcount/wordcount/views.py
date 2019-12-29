@@ -20,7 +20,6 @@ def count(request):
     return render(request, 'count.html', {'fulltext': fulltext, 'wordcnt': wordcnt, 'worddict': worddict,
                                           'items': worddict.items()})
 
-
 def about(request):
     return render(request, 'about.html')
 
@@ -29,3 +28,6 @@ def game_01(request):
 
 def game_02(request):
     return render(request, 'game_02.html')
+
+def sign_up(request):
+    return render(request, 'sign_up.html')
