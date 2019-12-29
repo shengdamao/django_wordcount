@@ -1,5 +1,6 @@
 <h1>Hi WordCount</h1>
 
+<a href="{% url 'about' %}">About</a>
 
 <form action="{% url 'count' %}">
     <textarea cols="60" rows="15" name="fulltext"></textarea>
@@ -7,4 +8,24 @@
     <br>
 
     <input type="submit" value="Count!"   />
+</form>
+
+<form action="{% url 'sign_up_game_01' %}">
+    <textarea>
+
+
+    </textarea>
+
+
+    <input type="submit" value="Sign Up Now." />
+</form>
+
+<form action="{% url 'sign_up_game_02' %}">
+  First name:<br>
+  <input type="text" name="firstname" value="Mickey">
+  <br>
+  Last name:<br>
+  <input type="text" name="lastname" value="Mouse">
+  <br><br>
+  <input type="submit" value="Submit">
 </form>

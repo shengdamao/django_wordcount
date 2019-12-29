@@ -8,6 +8,8 @@ def homepage(request):
 
 def count(request):
     fulltext = request.GET['fulltext']
+    print("request_print:")
+    print(request)
 
     wordlst = fulltext.split()
     wordcnt = len(wordlst)
@@ -18,6 +20,12 @@ def count(request):
     return render(request, 'count.html', {'fulltext': fulltext, 'wordcnt': wordcnt, 'worddict': worddict,
                                           'items': worddict.items()})
 
-def about(request):
 
+def about(request):
     return render(request, 'about.html')
+
+def game_01(request):
+    return render(request, 'game_01.html')
+
+def game_02(request):
+    return render(request, 'game_02.html')
