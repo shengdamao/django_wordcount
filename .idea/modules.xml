@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/django_wordcount.iml" filepath="$PROJECT_DIR$/.idea/django_wordcount.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/wordcount.iml" filepath="$PROJECT_DIR$/.idea/wordcount.iml" />
     </modules>
   </component>
 </project>
