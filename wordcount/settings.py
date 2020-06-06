@@ -25,7 +25,7 @@ SECRET_KEY = 'nk-1ph!^p8&s02kmr5gp(@=b#_+y9t1l-6flrek84_h+-#s4e9'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['shengda-django-3.azurewebsites.net',]
 
 
 # Application definition
